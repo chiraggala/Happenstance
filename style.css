@@ -214,3 +214,93 @@
 {
     opacity: 0.7;
 }
+.Info2
+{width: 100%;}
+
+.Info2Container
+{
+height: 40px;
+width: 80%;
+/* background-color: aqua; */
+margin: auto;
+
+}
+.Info2Container h3
+{text-align: center;
+    padding: 20px 0px;
+    position: relative;
+text-align: center;
+padding-top: 0%;
+}
+
+.Info2Container h3::before
+{
+
+    content: '';
+    border-bottom: 1px solid rgb(182, 178, 178);
+    position: absolute;
+    width: 44.2%;
+    height: 2px;
+    top: 10px;
+    left: 0%;
+}
+
+.Info2Container h3::after
+{
+    content: '';
+    border-bottom: 1px solid rgb(182, 178, 178);
+    position: absolute;
+    width: 44.2%;
+    height: 2px;
+    top: 10px;
+    right: 0%;
+}
+
+.Gallery2
+{
+
+width: 100%;    
+/* background-color: black; */
+}
+.gallery2Container
+{
+height: 900px;
+    width: 80%;
+    /* background-color: aqua; */
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+ 
+
+}
+.box1
+{
+
+     height: 250px;
+    width: 24.5%;
+    /* background-color: blueviolet; */
+    border-radius: 20px;
+    transition: 0.7s;
+}
+.box1 video
+{
+height: 250px;
+     width: 100%;   
+     border-radius: 20px;
+
+}
+
+.box1 img
+{
+    height: 250px;
+     width: 100%;
+     border-radius: 20px;
+}
+.box1 h3
+{
+font-size: small;
+color: gray;
+padding: 8px;
+}
